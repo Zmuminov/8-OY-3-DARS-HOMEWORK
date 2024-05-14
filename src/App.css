@@ -1,0 +1,70 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form input {
+  width: 300px;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px;
+}
+
+.todoCardsContainer {
+  background: rgb(175, 175, 175);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.modalAdd {
+  width: 700px;
+}
+
+.todoCard {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.todoCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoTitlee {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+
+.checkbox {
+  margin-top: 5px;
+}
+
+.todoTitle p {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.changeIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.change {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
